@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Vamos Contar</title>
+</head>
+<body>
+    <header>
+        <h1>Vamos contar</h1>
+    </header>
+    
+    <section>        
+        <div id="information">
+            <form>
+                <label for="initial">
+                    Início:
+                    <input type="number" name="initial" id="txtInitial">
+                </label>
+                <label for="initial">
+                    Fim:
+                    <input type="number" name="end" id="txtEnd">
+                </label>
+                <label for="initial">
+                    Passo:
+                    <input type="number" name="step" id="txtStep">
+                </label>
+            </form> 
+        </div>      
+        
+        <div>
+            <input type="button" class="button" onclick="tellStep()" value="Contar passos">
+            <input type="button" class="buttonClear" onclick="clearInformation()" value="Limpar dados">
+        </div>
+
+        <div id="answer" style="text-align: center;">
+            Preparando a contagem...
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy;CursoemVideo</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
