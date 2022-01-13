@@ -21,6 +21,6 @@
 
 ## 🛠️ Tecnologias Utilizadas
 
-- HTML5;
-- CSS;
-- Javascript;
+- [HTML5](https://www.techtudo.com.br/noticias/2011/12/o-que-e-html5.ghtml);
+- [CSS](https://developer.mozilla.org/pt-BR/docs/Web/CSS);
+- [Javascript](https://www.javascript.com/);
